@@ -1,3 +1,6 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { FunctionComponent } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
@@ -25,11 +28,8 @@ const Notes: FunctionComponent = () => {
    */
 
   return (
-    <div>
+    <div sx={{ variant: 'containers.page' }}>
       <h1>Note: {id} </h1>
-      <Link href="/notes">
-        <a>Notes</a>
-      </Link>
     </div>
   )
 }
