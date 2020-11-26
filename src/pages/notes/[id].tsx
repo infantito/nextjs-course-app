@@ -3,7 +3,6 @@
 import { jsx } from 'theme-ui'
 import { FunctionComponent } from 'react'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
 
 const Notes: FunctionComponent = () => {
   const router = useRouter()

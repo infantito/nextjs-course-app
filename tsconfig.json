@@ -20,6 +20,8 @@
     "paths": {
       "components": ["./src/components"],
       "components/*": ["./src/components/*"],
+      "data": ["./src/data"],
+      "data/*": ["./src/data/*"],
       "pages": ["./src/pages"],
       "pages/*": ["./src/pages/*"],
       "utils": ["./src/utils"],
